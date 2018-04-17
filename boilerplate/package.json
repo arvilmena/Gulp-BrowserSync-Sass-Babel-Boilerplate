@@ -1,0 +1,35 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvilmena/Gulp-BrowserSync-Sass-Babel-Boilerplate.git"
+  },
+  "author": "Arvil Meña",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arvilmena/Gulp-BrowserSync-Sass-Babel-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/arvilmena/Gulp-BrowserSync-Sass-Babel-Boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "cssnano": "^3.10.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-purge-sourcemaps": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
+  }
+}
