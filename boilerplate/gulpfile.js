@@ -24,9 +24,10 @@ const paths = {
 function serve() {
 
     browserSync.init({
-        server: {
-            baseDir: "./app/"
-        }
+        // server: {
+        //     baseDir: "./app/"
+        // }
+        proxy: "static.test/boilerplate/app"
     });
 }
 
@@ -53,7 +54,7 @@ function styles() {
 function watch() {
   // gulp.watch(paths.scripts.src, scripts);
   gulp.watch(["./app/src/styles/*.scss", "./app/src/styles/**/*.scss"], styles);
-  gulp.watch("./app/*.html").on('change', browserSync.reload);
+  gulp.watch(["./app/*.html", "./app/*.php"]).on('change', browserSync.reload);
 }
 
 gulp.task('default', gulp.parallel(serve, watch));

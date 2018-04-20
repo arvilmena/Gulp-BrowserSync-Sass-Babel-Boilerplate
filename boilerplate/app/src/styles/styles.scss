@@ -1,3 +1,70 @@
-* {
-    border: 1px solid green;
+
+@page { margin: 0px; }
+
+body, body * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 750px;
+  font-size: 17px;
+  color: #2D2D2A;
+}
+
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+.c-left {
+  width: 35%;
+}
+.c-right {
+  width: 65%;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.header {
+  .basic {
+    img {
+      border-radius: 50%;
+    }
+    .name {
+      font-family: 'Rock Salt', cursive;
+    }
+  }
+}
+
+.content {
+
+  .f-left {
+    background-color: #C14953;
+    border-radius: 8px;
+    width: 225px;
+    padding: 18px;
+  }
+  .f-right {
+    border-top: 1px solid #808080;
+    width: 450px;
+    padding: 18px;
+  }
 }
